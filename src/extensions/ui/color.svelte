@@ -1,10 +1,11 @@
 <style global>
     :root {
-        --color-a: #2c2b41;
-        --color-b: #343442;
-        --color-c: #2b2b58;
-        --color-seperator: #3b3b3d;
-        --color-text: #ffffff;
+        --color-primary: #dddbdb;
+        --color-secondary: #c0bebe;
+        --color-reverse: #424249;
+        --color-seperator: #e6e6eb;
+        --color-text: #3c3f41;
+        --color-text-reverse: #dce0e2;
     }
 </style>
 <div></div>
