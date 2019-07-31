@@ -1,17 +1,13 @@
 import Root from "./root.svelte"
 
-export default ({ name }) => ({
-    name: "editor",
+export default () => ({
+    name: "ui",
     init() {
         this.root = new Root({
-            target: document.body,
-            props: { name }
+            target: document.body
         });
     },
     start() {},
 
-    // api: 
-    test() {
-        this.emit("test", "ok");
-    }
+    // api:
 })
